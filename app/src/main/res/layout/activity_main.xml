@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/pastel">
+
+    <RelativeLayout
+        android:id="@+id/topbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/salmon"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_topbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:text="Yummy Dessert Box"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:gravity="left"
+            android:fontFamily="@font/akayaanadaka"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_about"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16sp"
+            android:src="@drawable/about" />
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/topbar1"
+        android:id="@+id/rv_dessert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/dessert_saya" />
+
+</RelativeLayout>

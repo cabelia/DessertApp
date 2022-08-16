@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Yummy Dessert Box!</string>
+    <string name="nama_dessert">Nama Dessert </string>
+    <string name="detail">Detail </string>
+    <string name="harga">Harga </string>
+    <string name="stock">Stock</string>
+    <string name="expired">Expired</string>
+    <string name="note">Note</string>
+    <string name="cantika_belia_ananda_n">Cantika Belia Ananda N</string>
+    <string name="email">cantikabelia01@gmail.com</string>
+    <string name="about_me">About Me</string>
+</resources>
